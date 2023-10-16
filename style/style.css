@@ -31,15 +31,17 @@
   }
 
 
-  .text-color{
+  /* .text-color{
     color:rgb(244, 98, 58) !important;
-  }
+  } */
+
 .bg-color{
       background-color: rgb(244, 98, 58) !important;
     
   }
+
+ .text-color,
   .border-pry{
-    /* background-color: rgb(244, 98, 58) !important; */
     color: rgb(244, 98, 58) !important;
   }
 
@@ -47,11 +49,11 @@
    .find-color:hover{
     background-color:#cf5331 !important;
   }
+
   .img-text{
-    position: relative
-   
-    
+    position: relative  
   }
+
   .portfolio-box-caption{
     position: absolute;
     bottom: 0 ;
@@ -66,18 +68,4 @@
   }
   .img-text:hover .portfolio-box-caption{
     opacity: 1;
-  }
-  /* .name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
-
-
-  @media screen and ( min-width:992px){
-    #start-bootstrap{
-      box-shadow:none;
-      background-color: rgba(255, 255, 255, 0.165);
-    }
   }
