@@ -2,21 +2,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-   
-  }
-  /* start-bootstrap navbar styling */
-
-  body{
     font-family: "Merriweather Sans", "Segoe UI",  
     "Helvetica Neue", Arial, "Noto Sans",
      sans-serif, "Apple Color Emoji", 
      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
-  #start-bootsrap{
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-    background-color: #fff;
-    transition: background-color 0.2s ease;
-  } 
   
 
  main{
@@ -29,11 +19,6 @@
     background-size: cover;
 
   }
-
-
-  /* .text-color{
-    color:rgb(244, 98, 58) !important;
-  } */
 
 .bg-color{
       background-color: rgb(244, 98, 58) !important;
