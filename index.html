@@ -14,9 +14,7 @@
     <!-- custom CSS -->
     <link rel="stylesheet" href="/style/style.css">
 
-    <!-- Swiper CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
-
+   
 
 </head>
   <body id="page-top">
@@ -192,7 +190,7 @@
 </section>
 
 
-<!--Call ton action  -->
+<!--Call to action  -->
 <section class=" bg-dark text-white py-5 ">
   <div class="container text-center py-5 mt-5">
       <h2 class="mb-5">Free Download at Start Bootstrap!</h2>
@@ -217,10 +215,25 @@
    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
     <div class="col-lg-6">
 
+
+      <!-- <form id="contactForm" data-sb-form-api-token="API_TOKEN">: This is the main <form> 
+        element that contains the entire contact form. 
+        It has an id attribute set to "contactForm" and
+         a data-sb-form-api-token attribute, which appears to be a placeholder for an API token. -->
+
+         <!-- Form API Token:
+    The data-sb-form-api-token attribute is currently set to "API_TOKEN." This is a placeholder for an API token that may be used 
+    to handle form submissions on the server side. You should replace "API_TOKEN" with an actual API token for the form to work. -->
       <form id="contact-form" data-sb-form-api-token="API_TOKEN">
         
 <!-- NAME INPUT -->
         <div class="form-floating mb-3">
+          
+          <!-- The id attribute is "name" for identification.
+The data-sb-validations attribute specifies that this
+ field is required (the user must enter a name).
+The data-sb-can-submit attribute is set to "no,"
+ indicating that the form cannot be submitted if this field is not valid. -->
           <input id="name"  type="text" data-sb-validations="required" data-sb-can-submit="no" class="form-control" placeholder="Enter your full name" >
           <label for="name">Full name</label>
           <div class="invalid-feedback" data-sb-feedback="name:required">
@@ -263,6 +276,11 @@
         </div>
 
 
+
+
+        <!-- This is the submit button. It has the class "btn-primary" for styling, 
+          and it's initially disabled (with the "disabled" class)
+           to prevent submission until the form is valid. -->
         <div class="d-grid">
           <button class="btn border-0 bg-color text-white btn-xl disabled" id="submitButton" type="submit">Submit</button>
         </div>
